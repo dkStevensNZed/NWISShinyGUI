@@ -36,12 +36,19 @@ ui <- fluidPage(
        -webkit-column-count: 3; /* Chrome, Safari, Opera */
        -moz-column-count: 3; /* Firefox */
        column-count: 3;
+       padding: 0px;
+       margin: 0px;
      }"
                       ))
       
     ),
     
-   tags$style(type='text/css', ".selectize-input { font-size: 10px; line-height: 10px;} .selectize-dropdown { font-size: 10px; line-height: 10px; }"),
+   tags$style(type='text/css', ".selectize-input { 
+      font-size: 10px; 
+      line-height: 10px;
+      padding: 0px;
+      margin: 0px;
+   } .selectize-dropdown { font-size: 10px; line-height: 10px; }"),
 
    # Application title
    titlePanel("Trial USGS Application"),
